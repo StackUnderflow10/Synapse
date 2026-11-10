@@ -44,7 +44,7 @@ def search_paper(question):
 
     return "\n".join(output)
 
-with gr.Blocks(title="Research Paper Copilot") as demo:
+with gr.Blocks(title="Synapse") as demo:
 
     gr.Markdown(
         """
