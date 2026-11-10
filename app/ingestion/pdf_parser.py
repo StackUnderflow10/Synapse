@@ -1,10 +1,10 @@
-import fitz
+import pymupdf
 
 class PDFParser:
 
     def parse(self, pdf_path):
 
-        document = fitz.open(pdf_path)
+        document = pymupdf.open(pdf_path)
 
         pages = []
 
