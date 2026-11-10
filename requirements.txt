@@ -1,0 +1,9 @@
+arxiv
+PyMuPDF
+sentence-transformers
+chromadb
+numpy
+pandas
+gradio
+python-dotenv
+pydantic
