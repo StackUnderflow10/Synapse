@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+data/papers/
+data/parsed/
+data/chroma_db/
+
+.ipynb_checkpoints/
+.DS_Store
