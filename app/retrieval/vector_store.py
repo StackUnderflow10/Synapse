@@ -29,6 +29,10 @@ class PaperVectorStore:
             texts
         )
 
+        self.collection.delete(
+            where={"paper_id": chunks[0]["paper_id"]}
+        )
+        
         self.collection.upsert(
 
             ids=[chunk["chunk_id"] for chunk in chunks],
